@@ -8,7 +8,7 @@ app.use(express.static('docs'))
 app.use(bodyParser.urlencoded({
    extended:true
 }))
-mongoose.connect('mongodb+srv://druti:dhruva@cluster0.3lot51t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb://localhost:27017/MoneyList')
 var db= mongoose.connection
 db.on('error',()=> console.log("error in connecting to database"))
 db.once('open',()=>console.log("Connected to Database"))
