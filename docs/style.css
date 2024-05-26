@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(43, 183, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("pik.webp");
+}
+h1,h2{
+    text-align: center;
+}
+.input-section{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+.input-section label{
+    font-weight: bold;
+    font-size: 24px;
+    height: 8px;
+    padding: 8px;
+    margin-right: 10px;
+}
+.input-section select{
+    font-weight: bold;
+    padding: 8px;
+    margin-right: 10px;
+}
+.input-section input{
+    padding: 8px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding:10px 14px;
+    font-weight: bold;
+    background-color: rgb(195, 79, 21);
+    color: rgb(197, 203, 195);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px
+}
+th,td{
+    border: 1px solid #950969;
+    padding: 8px;
+    text-align: left
+  
+}
+th{
+    background-color: rgb(104, 23, 139);
+    color: rgb(227, 237, 240);
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(139, 73, 190);
+    color: rgb(219, 233, 233);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
